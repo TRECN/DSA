@@ -9,6 +9,7 @@ int main(){
     }   
     cin>>q;
     while(q--){
-        cin>>
+        cin>>l;
+        cin>>r;
     }   
 }       
