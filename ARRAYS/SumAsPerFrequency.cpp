@@ -11,6 +11,6 @@ int main(){
     while(q--){
         cin>>l;
         cin>>r;
-         
+           
     }   
 }       
