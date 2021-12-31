@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 int main(){
     int n,q,l,r;
     cin>>n;
@@ -7,6 +8,6 @@ int main(){
         cin>>a[i];
     }
     for(int i=0;i<n;i++){
-        
+
     }
 }
