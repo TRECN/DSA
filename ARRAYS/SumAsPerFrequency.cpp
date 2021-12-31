@@ -8,10 +8,7 @@ int main(){
         cin>>a[i];
     }   
     cin>>q;
-    while(q--){
-        cin>>l;
-        cin>>r;
-           
+
     }   
 }
        
