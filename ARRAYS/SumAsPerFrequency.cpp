@@ -20,17 +20,14 @@ int main(){
                         f++;
                         s+=a[j];
                         a[j]=0;
-                        j++;
                         
                     } 
+                    j++;
                 }
                 if(f>=l&&f<=r){
                     sum+=s;
                 }
-                else{
-                    s=0;
-                    f=0;
-                }
+                
             }
         }
         cout<<sum;     
