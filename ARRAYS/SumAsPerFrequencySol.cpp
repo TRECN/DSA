@@ -22,4 +22,11 @@ int main(){
     for(i=0;i<n;i++){
         sum[f[a[i]]]+=a[l];
     }
+    for(i=2;i<=1000000;i++){
+        sum[i]=sum[i]+sum[i-1];
+    }
+    cin>>q;
+    for(i=0;i<q;i++){
+        
+    }
 }
