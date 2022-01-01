@@ -19,8 +19,7 @@ int main(){
                         f++;
                         s+=a[i];
                         j++;
-                    }
-                    
+                    } 
                 }
                 if(f>=l&&f<=r){
                     sum+=s;
