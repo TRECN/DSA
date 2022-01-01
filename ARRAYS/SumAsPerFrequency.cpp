@@ -9,10 +9,8 @@ int main(){
     }   
     cin>>q;
     while(q--){
-        int a[n];
-        for(int i=0;i<n;i++){
-            a[i]=a1[i];
-        }
+        vector<int> a;
+        
         l=0,r=0;
         
         cin>>l;
