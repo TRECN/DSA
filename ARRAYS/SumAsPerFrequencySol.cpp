@@ -19,4 +19,7 @@ int main(){
         cin>>a[i];
         f[a[i]]++;
     }
+    for(i=0;i<n;i++){
+        sum[f[a[i]]]+=a[l];
+    }
 }
