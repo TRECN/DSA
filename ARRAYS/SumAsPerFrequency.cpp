@@ -13,7 +13,10 @@ int main(){
         cin>>r;
         for(int i=0;i<n;i++){
             if(a[i]){
-                
+                int j=0,f;
+                while(a[i]==a[j]){
+                    f++;
+                }
             }
         }     
     }   
