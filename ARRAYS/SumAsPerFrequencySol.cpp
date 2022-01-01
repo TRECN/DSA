@@ -27,6 +27,10 @@ int main(){
     }
     cin>>q;
     for(i=0;i<q;i++){
-        
+        cin>>l>>r;
+        ans=sum[r];
+        if(l>0){
+            ans=ans-sum[l-1];
+        }
     }
 }
