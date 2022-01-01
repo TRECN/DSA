@@ -10,4 +10,8 @@ int main(){
     cout.tie(NULL);
     ll n,i,j,ans,l,r,q;
     cin>>n;
+    ll a[n];
+    for(i=0;i<100000;i++){
+        
+    }
 }
