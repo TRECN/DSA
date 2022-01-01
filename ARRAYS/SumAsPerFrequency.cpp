@@ -32,7 +32,8 @@ int main(){
                     f=0;
                 }
             }
-        }     
+        }
+        cout<<sum;     
     }   
 }
        
