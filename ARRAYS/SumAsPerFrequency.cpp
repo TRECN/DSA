@@ -5,7 +5,9 @@ int main(){
     cin>>n;
     vector<int> a1;
     for(int i=0;i<n;i++){
-        cin>>a1[i];
+        int input;
+        cin>>input;
+        a1.push_back(input);
     }   
     cin>>q;
     while(q--){
