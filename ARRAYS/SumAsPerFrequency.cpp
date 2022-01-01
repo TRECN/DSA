@@ -10,7 +10,7 @@ int main(){
     cin>>q;
     while(q--){
         vector<int> a;
-        
+        a=a1;
         l=0,r=0;
         
         cin>>l;
