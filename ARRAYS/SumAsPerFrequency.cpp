@@ -19,6 +19,7 @@ int main(){
                         f++;
                         s+=a[i];
                         j++;
+                        a[i]=0;
                     } 
                 }
                 if(f>=l&&f<=r){
@@ -26,6 +27,7 @@ int main(){
                 }
                 else{
                     s=0;
+                    f=0;
                 }
             }
         }     
