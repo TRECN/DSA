@@ -12,6 +12,10 @@ int main(){
     cin>>n;
     ll a[n];
     for(i=0;i<100000;i++){
-        
+        sum[i]=0;
+        f[i]=0;
+    }
+    for(i=0;i<n;i++){
+        cin>>a[i];
     }
 }
