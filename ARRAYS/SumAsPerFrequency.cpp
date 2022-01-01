@@ -9,9 +9,7 @@ int main(){
     }   
     cin>>q;
     while(q--){
-        vector<int> a;
-        a=a1;
-        l=0,r=0;
+        vector<int> a(a1);
         
         cin>>l;
         cin>>r;
