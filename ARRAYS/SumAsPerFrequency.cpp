@@ -17,12 +17,13 @@ int main(){
                 while(a[i]==a[j]){
                     f++;
                     s+=a[i];
+                    j++;
                 }
                 if(f>=l&&f<=r){
                     sum+=s;
                 }
                 else{
-                    s=0
+                    s=0;
                 }
             }
         }     
