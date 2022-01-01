@@ -9,6 +9,7 @@ int main(){
     }   
     cin>>q;
     while(q--){
+        int b[n]=a;
         l=0,r=0;
 
         cin>>l;
@@ -21,7 +22,6 @@ int main(){
                     if(temp==a[j]){
                         f++;
                         s+=a[j];
-                        a[j]=0;
                         
                     } 
                     j++;
