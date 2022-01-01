@@ -18,9 +18,10 @@ int main(){
                 while(j<n){
                     if(temp==a[j]){
                         f++;
-                        s+=a[i];
-                        j++;
+                        s+=a[j];
                         a[j]=0;
+                        j++;
+                        
                     } 
                 }
                 if(f>=l&&f<=r){
