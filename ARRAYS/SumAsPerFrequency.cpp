@@ -12,6 +12,7 @@ int main(){
         cin>>l;
         cin>>r;
         for(int i=0;i<n;i++){
+            int temp=a[i];
             if(a[i]){
                 int j=0,f=0,s=0;
                 while(j<n){
@@ -19,7 +20,7 @@ int main(){
                         f++;
                         s+=a[i];
                         j++;
-                        a[i]=0;
+                        a[j]=0;
                     } 
                 }
                 if(f>=l&&f<=r){
