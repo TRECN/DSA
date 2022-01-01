@@ -3,15 +3,18 @@ using namespace std;
 int main(){
     int n,q,l,r,sum=0;
     cin>>n;
-    int a[n];
+    int a1[n];
     for(int i=0;i<n;i++){
-        cin>>a[i];
+        cin>>a1[i];
     }   
     cin>>q;
     while(q--){
-        int b[n]=a;
+        int a[n];
+        for(int i=0;i<n;i++){
+            a[i]=a1[i];
+        }
         l=0,r=0;
-
+        
         cin>>l;
         cin>>r;
         for(int i=0;i<n;i++){
@@ -22,7 +25,7 @@ int main(){
                     if(temp==a[j]){
                         f++;
                         s+=a[j];
-                        
+                        a[j]=0;
                     } 
                     j++;
                 }
