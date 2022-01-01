@@ -9,6 +9,8 @@ int main(){
     }   
     cin>>q;
     while(q--){
+        l=0,r=0;
+
         cin>>l;
         cin>>r;
         for(int i=0;i<n;i++){
@@ -30,7 +32,8 @@ int main(){
                 
             }
         }
-        cout<<sum;     
+        cout<<sum<<endl; 
+        sum=0;    
     }   
 }
        
