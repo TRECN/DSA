@@ -21,7 +21,9 @@ int main(){
                 if(f>=l&&f<=r){
                     sum+=s;
                 }
-                
+                else{
+                    s=0
+                }
             }
         }     
     }   
