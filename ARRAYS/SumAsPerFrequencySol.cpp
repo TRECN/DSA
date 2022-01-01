@@ -32,5 +32,6 @@ int main(){
         if(l>0){
             ans=ans-sum[l-1];
         }
+        cout<<ans<<endl;
     }
 }
