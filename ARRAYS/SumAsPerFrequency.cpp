@@ -10,7 +10,10 @@ int main(){
     cin>>q;
     while(q--){
         cin>>l;
-        cin>>r;     
+        cin>>r;
+        for(int i=0;i<n;i++){
+            
+        }     
     }   
 }
        
