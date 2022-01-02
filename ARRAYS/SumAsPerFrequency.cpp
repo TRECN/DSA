@@ -15,22 +15,7 @@ int main(){
         
         cin>>l;
         cin>>r;
-        for(int i=0;i<n;i++){
-            int temp=a[i];
-            if(temp){
-                int j=0,f=0,s=0;
-                while(j<n){
-                    if(temp==a[j]){
-                        f++;
-                        s+=a[j];
-                        a[j]=0;
-                    } 
-                    j++;
-                }
-                if(f>=l&&f<=r){
-                    sum+=s;
-                }
-                
+         
             }
         }
         cout<<sum<<endl; 
