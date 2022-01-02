@@ -20,11 +20,7 @@ int main(){
             if(temp){
                 int j=0,f=0,s=0;
                 while(j<n){
-                    if(temp==a[j]){
-                        f++;
-                        s+=a[j];
-                        a[j]=0;
-                    } 
+                     
                     j++;
                 }
                 if(f>=l&&f<=r){
