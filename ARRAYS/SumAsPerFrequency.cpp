@@ -9,10 +9,7 @@ int main(){
         cin>>input;
         a1.push_back(input);
     }   
-    cin>>q;
-    while(q--){
-        vector<int> a(a1);
-        
+
         cin>>l;
         cin>>r;
         for(int i=0;i<n;i++){
