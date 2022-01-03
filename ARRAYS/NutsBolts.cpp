@@ -12,5 +12,6 @@ int main(){
     while(t--){
         int n;
         cin>>n;
+        char nuts[n],bolts[n];
     }
 }
