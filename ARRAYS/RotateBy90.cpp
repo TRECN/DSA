@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-void rotate(vector<vector<int>>& matrix){
-    
+void rotate(vector<vector<int>>& matrix,int n){
+
 }
 int main(){
     int t;
@@ -16,7 +16,7 @@ int main(){
                 cin>>matrix[i][j];
             }
         }
-        rotate(matrix);
+        rotate(matrix,n);
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++)
                 cout<<matrix[i][j]<<" ";
