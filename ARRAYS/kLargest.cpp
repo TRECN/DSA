@@ -7,11 +7,12 @@ class Solution{
             vector<int> a(k);
             for(int i=n-1,j=0;i>0;i++,j++){
                 if(k--){
-                    break;
+                    return a;
                 }
                 a[j]=arr[i];
             }
         }
+        
 };
 int main(){
     int t;
