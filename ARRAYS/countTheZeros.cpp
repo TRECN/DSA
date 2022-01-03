@@ -4,7 +4,7 @@ using namespace std;
 class Solution{
     public:
         int countZeroes(int arr[],int n){
-            
+
         }
 };
 
@@ -18,6 +18,8 @@ int main(){
         for(int i=0;i<n;i++){
             cin>>arr[i];
         }
-        
+        Solution ob;
+        auto ans = ob.countZeros(arr,n);
+        cout<<ans<<endl;
     }
 }
