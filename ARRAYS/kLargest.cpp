@@ -5,7 +5,12 @@ class Solution{
         vector<int> kLargest(int arr[],int n,int k){
             sort(arr,arr+n);
             vector<int> a(k);
-            
+            for(int i=n-1,j=0;i>0;i++,j++){
+                if(k--){
+                    break;
+                }
+                a[j]=arr[i];
+            }
         }
 };
 int main(){
