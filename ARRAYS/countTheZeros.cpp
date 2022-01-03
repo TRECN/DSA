@@ -25,7 +25,7 @@ int main(){
             cin>>arr[i];
         }
         Solution ob;
-        auto ans = ob.countZeros(arr,n);
+        auto ans = ob.countZeroes(arr,n);
         cout<<ans<<endl;
     }
 }
