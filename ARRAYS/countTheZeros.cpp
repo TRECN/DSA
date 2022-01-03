@@ -4,7 +4,9 @@ using namespace std;
 class Solution{
     public:
         int countZeroes(int arr[],int n){
-
+            for(int i=0;i<n;i++){
+                
+            }
         }
 };
 
