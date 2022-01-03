@@ -3,7 +3,7 @@ using namespace std;
 class Solution{
     public:
         vector<int> kLargest(int arr[],int n,int k){
-            
+            sort(arr,arr+n);
         }
 };
 int main(){
