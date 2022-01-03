@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 void rotate(vector<vector<int>>& matrix){
-    int n
+    int n=matrix.size();
+    
 }
 int main(){
     int t;
