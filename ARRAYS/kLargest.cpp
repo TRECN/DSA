@@ -4,12 +4,11 @@ class Solution{
     public:
         vector<int> kLargest(int arr[],int n,int k){
             sort(arr,arr+n);
-            vector<int> a(k);
-            for(int i=n-1,j=0;i>0;i--,j++){
-                if(k--){
-                    break;
-                }
-                a[j]=arr[i];
+            vector<int> a;
+            int j=1;
+            while(k--){
+                
+
             }
             return a;
         }
@@ -27,6 +26,10 @@ int main(){
         }
         Solution ob;
         auto ans = ob.kLargest(arr,n,k);
+        for(auto x:arr){
+            cout<<x<<" ";
+
+        }
         for(auto x:ans){
             cout<<x<<" ";
 
