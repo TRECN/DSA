@@ -12,7 +12,12 @@ void rotate(vector<vector<int>>& matrix){
             swap(&matrix[i,j],&matrix[j][i]);
         }
     }
-    
+    for(int i=0;i<n/2;i++){
+        for(int j=0;j<n;j++){
+            swap(&matrix[i,j],&matrix[n-1-i][j])
+        }
+    }
+
 }
 int main(){
     int t;
