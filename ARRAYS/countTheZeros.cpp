@@ -1,5 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+class Solution{
+    public:
+        int countZeroes(int arr[],int n){
+            
+        }
+};
+
 int main(){
     int t;
     cin>>t;
