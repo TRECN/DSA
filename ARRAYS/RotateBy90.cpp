@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 void rotate(vector<vector<int>>& matrix,int n){
-
+    vector<int> arr(n);
 }
 int main(){
     int t;
