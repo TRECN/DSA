@@ -12,5 +12,6 @@ struct Node{
 
 
 int main(){
-    
+    int t;
+    cin>>t;
 }
