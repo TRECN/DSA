@@ -1,5 +1,14 @@
 #include<bit/stdc++.h>
 using namespace std;
+
+struct Node{
+    int data;
+    struct Node *next;
+    Node(int x){
+
+    }
+};
+
 int main(){
     int t;
     cin>>t;
