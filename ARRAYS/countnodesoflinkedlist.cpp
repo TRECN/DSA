@@ -27,5 +27,7 @@ int main(){
             tail->next=new Node(data);
             tail=new tail->next;
         }
+        Solution ob;
+        count<<ob.getCount(head)<<endl;
     }
 }
