@@ -12,5 +12,9 @@ struct Node{
 }
 
 int main(){
-    
+    int t;
+    cin>>t;
+    while(t--){
+        
+    }
 }
