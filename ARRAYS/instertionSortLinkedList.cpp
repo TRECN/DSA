@@ -25,6 +25,9 @@ class Solution{
             Node* key;
             while(temp->next!=NULL){
                 key=temp->next;
+                while(temp->data>key->data){
+                    
+                }
             }
         }
 }
