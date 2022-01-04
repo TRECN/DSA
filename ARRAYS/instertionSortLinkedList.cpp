@@ -22,9 +22,9 @@ class Solution{
     public:
         Node* insertionSort(struct Node *head_ref){
             Node* temp=head_ref;
-            Node* key;
+            
             while(temp!=NULL){
-                key=temp->next;
+                Node *key=temp->next;
                 while(temp->data>key->data){
 
                 }
