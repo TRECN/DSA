@@ -18,6 +18,13 @@ void printList(struct Node *head){
     }
 }
 
+class Solution{
+    public:
+        Node* insertionSort(struct Node *head_ref){
+            
+        }
+}
+
 int main(){
     int t;
     cin>>t;
