@@ -19,6 +19,7 @@ class Solution{
                 ++count;
                 head=head->next;
             }
+            return count;
         }
 };
 
