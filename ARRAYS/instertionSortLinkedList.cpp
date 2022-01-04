@@ -26,6 +26,11 @@ class Solution{
             while(temp!=NULL){
                 Node *key=temp->next;
                 while(key){
+                    if(temp->data>key->data){
+                        int t=temp->data;
+                        temp->data=key->data;
+                        key->data=t;
+                    }
 
                 }
             }
