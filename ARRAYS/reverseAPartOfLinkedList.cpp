@@ -20,6 +20,17 @@ int main(){
         Node *head=NULL;
         Node *temp=head;
 
+        for(int i=0;i<n;i++){
+            int data;
+            cin>>data;
+            if(head==NULL){
+                head=temp=new Node(data);
+            }
+            else{
+                temp->next=new Node(data);
+                temp=temp->next
+            }
+        }
 
     }
 }
