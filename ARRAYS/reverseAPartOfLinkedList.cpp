@@ -34,6 +34,11 @@ class Solution{
                     N=temp;
                 }
             }
+            
+            while(temp!=N){
+                
+            }
+
         }
 };
 
