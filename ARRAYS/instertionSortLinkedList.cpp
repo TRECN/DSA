@@ -12,7 +12,7 @@ struct Node{
 
 void printList(struct Node *head){
     struct Node *temp=head;
-    while(temp!=Null){
+    while(temp!=NULL){
         cout<<temp->data;
         temp=temp->next;
     }
@@ -37,7 +37,7 @@ class Solution{
             }
             return head_ref;
         }
-}
+};
 
 int main(){
     int t;
