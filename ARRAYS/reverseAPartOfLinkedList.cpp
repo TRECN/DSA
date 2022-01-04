@@ -3,7 +3,7 @@ using namespace std;
 
 struct Node{
     int data;
-    struct Node* next;
+    Node* next;
     Node(int x){
         data=x;
         next=NULL;
@@ -19,71 +19,70 @@ void printList(struct Node* head){
     }
 }
 
-// void reverse(Node* M){
-//             Node* a=M;
-//             Node* b=NULL;
-//             Node* c;
-//             while(a!=NULL){
-//                 c=a->next;
-//                 a->next=b;
-//                 b=a;
-//                 a=c;
-//             }
+void reverse(Node* M){
+            Node* a=M;
+            Node* b=NULL;
+            Node* c;
+            while(a!=NULL){
+                c=a->next;
+                a->next=b;
+                b=a;
+                a=c;
+            }
 
-// }
+}
 
 
 
-// class Solution{
-//     public:
-//         Node* reverseBetween(Node* head,int m,int n){
-//             // Node* temp=head;
-//             // int i=1;
-//             // Node* M;
-//             // Node* N;
-//             // Node* X=temp;
-//             // Node* N1;
-//             // while(temp!=NULL){
-//             //     if(i<m){
-//             //         X=temp;
-//             //     }
-//             //     if(i==m){
-//             //         M=temp;
-//             //     }
-//             //     if(i==n){
-//             //         N=temp;
-//             //     }
+class Solution{
+    public:
+        Node* reverseBetween(Node* head,int m,int n){
+            Node* temp=head;
+            int i=1;
+            Node* M;
+            Node* N;
+            Node* X=temp;
+            Node* N1;
+            while(temp!=NULL){
+                if(i<m){
+                    X=temp;
+                }
+                if(i==m){
+                    M=temp;
+                }
+                if(i==n){
+                    N=temp;
+                }
 
-//             //     i++;
-//             //     temp=temp->next;
-//             // }
-//             // N1=N->next;
-//             // if(m==1){
-//             //     N->next=NULL;
-//             //     reverse(M);
-//             //     head=N;
-//             //     M->next=N1;
-//             // }
-//             // else{
-//             //     X->next=NULL;
-//             //     N->next=NULL;
-//             //     reverse(M);
-//             //     X->next=N;
-//             //     M->next=N1;
-//             // }
+                i++;
+                temp=temp->next;
+            }
+            N1=N->next;
+            if(m==1){
+                N->next=NULL;
+                reverse(M);
+                head=N;
+                M->next=N1;
+            }
+            else{
+                X->next=NULL;
+                N->next=NULL;
+                reverse(M);
+                X->next=N;
+                M->next=N1;
+            }
             
-//             return head;
-//         }
+            return head;
+        }
         
-// };
+};
 
 int main(){
     int t;
     cin>>t;
     while(t--){
         int N,m,n;
-        cin>>N;
-        //>>m>>n;
+        cin>>N>>m>>n;
         Node *head=NULL;
         Node *temp=head;
 
@@ -98,8 +97,8 @@ int main(){
                 temp=temp->next;
             }
         }
-       // Solution ob;
-      //  Node* newhead=ob.reverseBetween(head,m,n);
+        Solution ob;
+        Node* newhead=ob.reverseBetween(head,m,n);
         printList(head);
         cout<<"\n";
     }
