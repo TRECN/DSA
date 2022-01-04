@@ -28,7 +28,10 @@ class Solution{
             Node* N;
             while(temp!=NULL){
                 if(i==m){
-
+                    M=temp;
+                }
+                if(t==n){
+                    N=temp;
                 }
             }
         }
