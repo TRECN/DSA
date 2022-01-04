@@ -25,6 +25,7 @@ int main(){
         for(int i=0;i<n-1;i++){
             cin>>data;
             tail->next=new Node(data);
+            tail=new tail->next;
         }
     }
 }
