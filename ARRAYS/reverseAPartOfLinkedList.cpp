@@ -22,7 +22,7 @@ void printList(struct Node* head){
 class Solution{
     public:
         Node* reverseBetween(Node* head,int m,int n){
-            
+
         }
 };
 
@@ -47,6 +47,9 @@ int main(){
                 temp=temp->next;
             }
         }
+        Solution ob;
+        Node* newhead=ob.reverseBetween(head,m,n);
         printList(head);
+        cout<<"\n";
     }
 }
