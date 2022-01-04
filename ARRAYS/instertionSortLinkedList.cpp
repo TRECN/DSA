@@ -23,10 +23,10 @@ class Solution{
         Node* insertionSort(struct Node *head_ref){
             Node* temp=head_ref;
             Node* key;
-            while(temp->next!=NULL){
+            while(temp!=NULL){
                 key=temp->next;
                 while(temp->data>key->data){
-                    
+
                 }
             }
         }
