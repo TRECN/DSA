@@ -19,6 +19,14 @@ void printList(struct Node* head){
     }
 }
 
+class Solution{
+    public:
+        Node* reverseBetween(Node* head,int m,int n){
+            
+        }
+};
+
+
 int main(){
     int t;
     cin>>t;
