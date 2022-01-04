@@ -15,7 +15,9 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        int n;
-        cin>>n;
+        int N,m,n;
+        cin>>N>>m>>n;
+        
+
     }
 }
