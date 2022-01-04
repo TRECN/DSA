@@ -20,5 +20,8 @@ int main(){
                 temp=temp->next;
             }
         }
+        Solution ob;
+        head=ob.insertionSort(head);
+        printList(head);
     }
 }
