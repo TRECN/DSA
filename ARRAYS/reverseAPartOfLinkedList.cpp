@@ -11,6 +11,10 @@ struct Node{
 };
 
 
+void printList(struct Node* head){
+    
+}
+
 int main(){
     int t;
     cin>>t;
@@ -28,7 +32,7 @@ int main(){
             }
             else{
                 temp->next=new Node(data);
-                temp=temp->next
+                temp=temp->next;
             }
         }
 
