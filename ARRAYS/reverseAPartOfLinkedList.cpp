@@ -3,7 +3,11 @@ using namespace std;
 
 struct Node{
     int data;
-    Node* next=NULL:
+    Node* next;
+    Node(int x){
+        data=x;
+        next=NULL;
+    }
 };
 
 
