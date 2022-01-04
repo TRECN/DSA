@@ -10,6 +10,14 @@ struct Node{
     }
 };
 
+void printList(struct Node *head){
+    struct Node *temp=head;
+    while(temp!=Null){
+        cout<<temp->data;
+        temp=temp->next;
+    }
+}
+
 int main(){
     int t;
     cin>>t;
