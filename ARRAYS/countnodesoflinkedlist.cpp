@@ -20,6 +20,8 @@ int main(){
 
         int data;
         cin>>data;
-        struct Node *head = new 
+        struct Node *head = new Node(data);
+        struct Node *tail = head;
+        
     }
 }
