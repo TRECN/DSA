@@ -25,7 +25,7 @@ class Solution{
             
             while(temp!=NULL){
                 Node *key=temp->next;
-                while(temp->data>key->data){
+                while(key){
 
                 }
             }
