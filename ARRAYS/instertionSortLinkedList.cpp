@@ -23,5 +23,7 @@ int main(){
         Solution ob;
         head=ob.insertionSort(head);
         printList(head);
+
+        cout<<endl;
     }
 }
