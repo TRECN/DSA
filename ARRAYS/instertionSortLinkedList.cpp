@@ -35,7 +35,7 @@ class Solution{
                 }
                 temp=temp->next;
             }
-            return start;
+            return head_ref;
         }
 }
 
