@@ -21,7 +21,8 @@ void printList(struct Node *head){
 class Solution{
     public:
         Node* insertionSort(struct Node *head_ref){
-            
+            Node* temp=head_ref;
+            while(temp!=NULL)
         }
 }
 
