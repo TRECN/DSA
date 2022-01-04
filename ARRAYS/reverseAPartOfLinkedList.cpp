@@ -86,7 +86,7 @@ int main(){
         Node *head=NULL;
         Node *temp=head;
 
-        for(int i=0;i<n;i++){
+        for(int i=0;i<N;i++){
             int data;
             cin>>data;
             if(head==NULL){
@@ -99,7 +99,7 @@ int main(){
         }
         Solution ob;
         Node* newhead=ob.reverseBetween(head,m,n);
-        printList(head);
+        printList(newhead);
         cout<<"\n";
     }
 }
