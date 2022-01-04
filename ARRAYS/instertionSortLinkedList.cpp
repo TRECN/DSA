@@ -31,8 +31,9 @@ class Solution{
                         temp->data=key->data;
                         key->data=t;
                     }
-
+                    key=key->next;
                 }
+                temp=temp->next;
             }
         }
 }
