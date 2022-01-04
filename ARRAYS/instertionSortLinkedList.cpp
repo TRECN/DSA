@@ -15,6 +15,10 @@ int main(){
             if(head==NULL){
                 head=temp=new Node(data);
             }
+            else{
+                temp->next=new Node(data);
+                temp=temp->next;
+            }
         }
     }
 }
