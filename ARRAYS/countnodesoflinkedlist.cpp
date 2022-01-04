@@ -11,6 +11,13 @@ struct Node{
     }
 }
 
+class Solution{
+    public:
+        int getCount(struct Node* head){
+            
+        }
+};
+
 int main(){
     int t;
     cin>>t;
