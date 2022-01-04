@@ -9,5 +9,9 @@ int main(){
         Node *head = NULL;
         Node *temp = head;
         
+        for(int i=0;i<n;i++){
+            int data;
+            cin>>data;
+        }
     }
 }
