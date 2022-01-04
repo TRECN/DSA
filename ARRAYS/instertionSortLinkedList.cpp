@@ -13,7 +13,7 @@ struct Node{
 void printList(struct Node *head){
     struct Node *temp=head;
     while(temp!=NULL){
-        cout<<temp->data;
+        cout<<temp->data<<" ";
         temp=temp->next;
     }
 }
@@ -62,7 +62,7 @@ int main(){
         Solution ob;
         head=ob.insertionSort(head);
         printList(head);
-
+        cout<<endl;
         cout<<endl;
     }
 }
