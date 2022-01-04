@@ -17,7 +17,9 @@ int main(){
     while(t--){
         int N,m,n;
         cin>>N>>m>>n;
-        
+        Node *head=NULL;
+        Node *temp=head;
+
 
     }
 }
