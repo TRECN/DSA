@@ -12,6 +12,9 @@ int main(){
         for(int i=0;i<n;i++){
             int data;
             cin>>data;
+            if(head==NULL){
+                head=temp=new Node(data);
+            }
         }
     }
 }
