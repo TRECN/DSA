@@ -39,6 +39,6 @@ int main(){
                 temp=temp->next;
             }
         }
-
+        printList(head);
     }
 }
