@@ -49,6 +49,8 @@ bool areIdentical(struct Node* head1,struct Node *head2){
     while(true){
         if((temp1==NULL&&temp2!=NULL)||(temp1!=NULL&&temp2==NULL))
             return 0;
+        if(temp1==NULL&&temp@==NULL)
+            return 1;
         
     }
     while()
