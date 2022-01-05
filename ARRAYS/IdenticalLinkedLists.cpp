@@ -43,4 +43,6 @@ int main(){
     return 0;
 }
 
-bool areIdentical(struct Node* head!,)
+bool areIdentical(struct Node* head1,struct Node *head2){
+    
+}
