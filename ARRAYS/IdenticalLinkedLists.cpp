@@ -35,7 +35,7 @@ int main(){
         while(n2-- >1){
             cin>>tmp;
             tail2->next = new Node(tmp);
-            tail2 = tail->next;
+            tail2 = tail2->next;
         }
         areIdentical(head1, head2)?cout<<"Identical"<<endl:cout<<"Not identical"<<endl;
 
