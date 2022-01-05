@@ -52,6 +52,9 @@ bool areIdentical(struct Node* head1,struct Node *head2){
         if(temp1==NULL&&temp2==NULL)
             return 1;
         if(temp1->data!=temp2->data)
+            return 0;
+
+        temp1=temp1->next;
         
     }
     
