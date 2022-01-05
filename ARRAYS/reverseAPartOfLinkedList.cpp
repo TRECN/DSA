@@ -57,13 +57,7 @@ class Solution{
                 i++;
                 temp=temp->next;
             }
-            N1=N->next;
-            if(m==1){
-                N->next=NULL;
-                reverse(M);
-                head=N;
-                M->next=N1;
-            }
+            
             else{
                 X->next=NULL;
                 N->next=NULL;
