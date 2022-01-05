@@ -28,5 +28,6 @@ int main(){
             tail1->next=new Node(tmp);
             tail1 = tail1->next;
         }
+        cin>>n2;
     }
 }
