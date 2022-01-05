@@ -36,7 +36,12 @@ void reverse(Node* M){
 
 class Solution{
     public:
-        mp;
+        Node* reverseBetween(Node* head,int m,int n){
+            Node* temp=head;
+            int i=1;
+            Node* M;
+            Node* N;
+            Node* X=temp;
             Node* N1;
             while(temp!=NULL){
                 if(i<m){
