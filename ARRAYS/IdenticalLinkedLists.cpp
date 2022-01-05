@@ -28,7 +28,10 @@ int main(){
             tail1->next=new Node(tmp);
             tail1 = tail1->next;
         }
-        
+        cin>>n2;
+        cin>>d2;
+        head2 = new Node(d2);
+        tail2 = head2;
         while(n2-- >1){
             cin>>tmp;
             tail2->next = new Node(tmp);
