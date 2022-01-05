@@ -44,9 +44,7 @@ int main(){
 }
 
 bool areIdentical(struct Node* head1,struct Node *head2){
-    Node* temp1 = head1;
-    Node* temp2 = head2; 
-    while(true){
+ 
         if((temp1==NULL&&temp2!=NULL)||(temp1!=NULL&&temp2==NULL))
             return 0;
         if(temp1==NULL&&temp2==NULL)
