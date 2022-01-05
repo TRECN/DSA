@@ -24,7 +24,9 @@ int main(){
         head1 = new Node(d1);
         tail1 = head1; 
         while(n1-->1){
-            cin
+            cin>>tmp;
+            tail1->next=new Node(tmp);
+            tail1 = tail1->next;
         }
     }
 }
