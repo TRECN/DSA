@@ -20,7 +20,15 @@ void printList(struct Node* head){
 }
 
 void reverse(Node* M){
-            
+            Node* a=M;
+            Node* b=NULL;
+            Node* c;
+            while(a!=NULL){
+                c=a->next;
+                a->next=b;
+                b=a;
+                a=c;
+            }
 
 }
 
