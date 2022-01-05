@@ -38,5 +38,9 @@ int main(){
             tail2 = tail->next;
         }
         areIdentical(head1, head2)?cout<<"Identical"<<endl:cout<<"Not identical"<<endl;
+
     }
+    return 0;
 }
+
+bool areIdentical(struct Node* head!,)
