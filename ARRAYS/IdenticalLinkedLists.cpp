@@ -23,6 +23,8 @@ int main(){
         cin>>d1;
         head1 = new Node(d1);
         tail1 = head1; 
-        
+        while(n1-->1){
+            cin
+        }
     }
 }
