@@ -10,6 +10,8 @@ struct Node{
     }
 };
 
+bool areIdentical(struct Node* a,struct Node *b);
+
 int main(){
 
 }
