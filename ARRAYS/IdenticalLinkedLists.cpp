@@ -55,7 +55,7 @@ bool areIdentical(struct Node* head1,struct Node *head2){
             return 0;
 
         temp1=temp1->next;
-        
+        temp2=temp2->next;
     }
     
 }
