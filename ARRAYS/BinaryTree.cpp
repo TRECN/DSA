@@ -22,4 +22,7 @@ Node* InsertNode(Node* root, int data){
         root=CreateNode(data);
         return root;
     }
+
+    queue<Node*> q;
+    q.push(root);
 }
