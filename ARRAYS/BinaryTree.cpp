@@ -45,3 +45,12 @@ Node* InsertNode(Node* root, int data){
         }
     }
 }
+
+void inorder(Node* temp){
+    if(temp==NULL)
+        return;
+    
+    inorder(temp->left);
+    cout<<temp->data<<" ";
+    inorder(temp->right);
+}
