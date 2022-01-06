@@ -56,5 +56,7 @@ void inorder(Node* temp){
 }
 
 int main(){
-    Node*
+    Node* root = CreateNode(10);
+    root->left = createNode(11);
+    
 }
