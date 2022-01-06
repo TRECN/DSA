@@ -25,4 +25,9 @@ Node* InsertNode(Node* root, int data){
 
     queue<Node*> q;
     q.push(root);
+
+    while(!q.empty()){
+        Node* temp = q.front();
+        q.pop();
+    }
 }
