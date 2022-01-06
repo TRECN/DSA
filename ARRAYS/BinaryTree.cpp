@@ -62,4 +62,7 @@ int main(){
     root->right = CreateNode(9);
     root->right->left = CreateNode(15);
     root->right->right = CreateNode(8);
+
+    cout<<"Inorder traversal befor insertion: ";
+    inorder(root);
 }
