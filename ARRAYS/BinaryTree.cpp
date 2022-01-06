@@ -59,4 +59,5 @@ int main(){
     Node* root = CreateNode(10);
     root->left = CreateNode(11);
     root->left->left = CreateNode(7);
+    root->right = CreateNode(9);
 }
