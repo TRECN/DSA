@@ -5,3 +5,10 @@ struct Node{
   Node* left;
   Node* right;
 };
+
+Node*  CreateNode(int data){
+    Node* newNode = Node();
+    if(!newNode){
+        
+    }
+}
