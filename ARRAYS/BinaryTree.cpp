@@ -54,3 +54,7 @@ void inorder(Node* temp){
     cout<<temp->data<<" ";
     inorder(temp->right);
 }
+
+int main(){
+    Node*
+}
