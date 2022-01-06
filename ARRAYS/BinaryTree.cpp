@@ -11,4 +11,6 @@ Node*  CreateNode(int data){
     if(!newNode){
         cout<<"Memory error"<<endl;
     }
+    newNode->data = data;
+    newNode->left=newNode->right=NULL;
 }
