@@ -70,5 +70,7 @@ int main(){
     int key = 12;
     root = InsertNode(root,key);
 
-    cout<<"";
+    cout<<"Inorder traversal after insertion: ";
+    inorder(root);
+    cout<<endl;
 }
