@@ -29,5 +29,8 @@ Node* InsertNode(Node* root, int data){
     while(!q.empty()){
         Node* temp = q.front();
         q.pop();
+
+        if(temp->left!=NULL)
+            q.push(temp->left);
     }
 }
