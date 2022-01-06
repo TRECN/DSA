@@ -20,6 +20,6 @@ Node*  CreateNode(int data){
 Node* InsertNode(Node* root, int data){
     if(root==NULL){
         root=CreateNode(data);
-        return NULL;
+        return root;
     }
 }
