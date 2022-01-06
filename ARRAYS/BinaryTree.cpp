@@ -60,4 +60,6 @@ int main(){
     root->left = CreateNode(11);
     root->left->left = CreateNode(7);
     root->right = CreateNode(9);
+    root->right->left = CreateNode(15);
+    root->right->right = CreateNode(8);
 }
