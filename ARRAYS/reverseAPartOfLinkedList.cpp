@@ -19,6 +19,63 @@ void printList(struct Node* head){
     }
 }
 
+void reverse(Node* M){
+            Node* a=M;
+            Node* b=NULL;
+            Node* c;
+            while(a!=NULL){
+                c=a->next;
+                a->next=b;
+                b=a;
+                a=c;
+            }
+
+}
+
+
+
+class Solution{
+    public:
+        Node* reverseBetween(Node* head,int m,int n){
+            Node* temp=head;
+            int i=1;
+            Node* M;
+            Node* N;
+            Node* X=temp;
+            Node* N1;
+            while(temp!=NULL){
+                if(i<m){
+                    X=temp;
+                }
+                if(i==m){
+                    M=temp;
+                }
+                if(i==n){
+                    N=temp;
+                }
+
+                i++;
+                temp=temp->next;
+            }
+            N1=N->next;
+            if(m==1){
+                N->next=NULL;
+                reverse(M);
+                head=N;
+                M->next=N1;
+            }
+            else{
+                X->next=NULL;
+                N->next=NULL;
+                reverse(M);
+                X->next=N;
+                M->next=N1;
+            }
+            
+            return head;
+        }
+        
+};
 
 int main(){
     int t;
