@@ -97,6 +97,9 @@ int main(){
                 temp=temp->next;
             }
         }
-       
+        Solution ob;
+        Node* newhead=ob.reverseBetween(head,m,n);
+        printList(newhead);
+        cout<<"\n";
     }
 }
