@@ -78,7 +78,14 @@ class Solution{
 };
 
 int main(){
-   
+    int t;
+    cin>>t;
+    while(t--){
+        int N,m,n;
+        cin>>N>>m>>n;
+        Node *head=NULL;
+        Node *temp=head;
+
         for(int i=0;i<N;i++){
             int data;
             cin>>data;
