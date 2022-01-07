@@ -64,16 +64,7 @@ class Solution{
                 head=N;
                 M->next=N1;
             }
-            else{
-                X->next=NULL;
-                N->next=NULL;
-                reverse(M);
-                X->next=N;
-                M->next=N1;
-            }
-            
-            return head;
-        }
+       
         
 };
 
