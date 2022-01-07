@@ -11,13 +11,6 @@ struct Node{
 };
 
 
-void printList(struct Node* head){
-    struct Node* temp=head;
-    while(temp!=NULL){
-        cout<<temp->data<<" ";
-        temp=temp->next;
-    }
-}
 
 void reverse(Node* M){
             Node* a=M;
