@@ -26,6 +26,16 @@ Node* InsertNode(Node* root, int data){
     queue<Node*> q;
     q.push(root);
 
+    while(!q.empty()){
+        Node* temp = q.front();
+        q.pop();
+
+        if(temp->left!=NULL)
+            q.push(temp->left);
+        else{
+            temp->left = CreateNode(data);
+            return root;
+        }
 
         if(temp->right !=NULL)
             q.push(temp->right);
