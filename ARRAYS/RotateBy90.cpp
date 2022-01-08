@@ -1,4 +1,10 @@
-
+#include<bits/stdc++.h>
+using namespace std;
+void swap(int* a,int* b){
+    int temp=*b;
+    *b=*a;
+    *a=temp;
+}
 void rotate(vector<vector<int>>& matrix){
     int n=matrix.size();
     for(int i=0;i<n;i++){
