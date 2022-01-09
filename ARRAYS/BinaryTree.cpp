@@ -7,11 +7,7 @@ struct Node{
 };
 
 Node*  CreateNode(int data){
-    Node* newNode = new Node();
-    if(!newNode){
-        cout<<"Memory error"<<endl;
-        return NULL;
-    }
+
     newNode->data = data;
     newNode->left=newNode->right=NULL;
     return newNode;
