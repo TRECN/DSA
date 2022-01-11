@@ -18,26 +18,7 @@ void printList(struct Node *head){
     }
 }
 
-class Solution{
-    public:
-        Node* insertionSort(struct Node *head_ref){
-            Node* temp=head_ref;
-            
-            while(temp!=NULL){
-                Node *key=temp->next;
-                while(key){
-                    if(temp->data>key->data){
-                        int t=temp->data;
-                        temp->data=key->data;
-                        key->data=t;
-                    }
-                    key=key->next;
-                }
-                temp=temp->next;
-            }
-            return head_ref;
-        }
-};
+
 
 int main(){
     int t;
