@@ -37,6 +37,12 @@ Node* InsertNode(Node* root, int data){
             return root;
         }
 
+        if(temp->right !=NULL)
+            q.push(temp->right);
+        else{
+            temp->right =  CreateNode(data);
+            return root;
+        }
     }
 }
 
