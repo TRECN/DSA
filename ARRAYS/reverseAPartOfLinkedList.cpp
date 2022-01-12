@@ -11,6 +11,27 @@ struct Node{
 };
 
 
+void printList(struct Node* head){
+    struct Node* temp=head;
+    while(temp!=NULL){
+        cout<<temp->data<<" ";
+        temp=temp->next;
+    }
+}
+
+void reverse(Node* M){
+            Node* a=M;
+            Node* b=NULL;
+            Node* c;
+            while(a!=NULL){
+                c=a->next;
+                a->next=b;
+                b=a;
+                a=c;
+            }
+
+}
+
 
 
 class Solution{
