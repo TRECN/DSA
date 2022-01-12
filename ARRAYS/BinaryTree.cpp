@@ -55,3 +55,22 @@ void inorder(Node* temp){
     inorder(temp->right);
 }
 
+int main(){
+    Node* root = CreateNode(10);
+    root->left = CreateNode(11);
+    root->left->left = CreateNode(7);
+    root->right = CreateNode(9);
+    root->right->left = CreateNode(15);
+    root->right->right = CreateNode(8);
+
+    cout<<"Inorder traversal befor insertion: ";
+    inorder(root);
+    cout<<endl;
+
+    int key = 12;
+    root = InsertNode(root,key);
+
+    cout<<"Inorder traversal after insertion: ";
+    inorder(root);
+    cout<<endl;
+}
