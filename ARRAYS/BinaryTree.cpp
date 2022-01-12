@@ -18,6 +18,13 @@ Node*  CreateNode(int data){
 }
 
 Node* InsertNode(Node* root, int data){
+    if(root==NULL){
+        root=CreateNode(data);
+        return root;
+    }
+
+    queue<Node*> q;
+    q.push(root);
 
     while(!q.empty()){
         Node* temp = q.front();
